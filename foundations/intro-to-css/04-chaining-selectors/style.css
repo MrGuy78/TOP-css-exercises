@@ -1,1 +1,15 @@
-/* Add CSS Styling */
+* ::before ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
